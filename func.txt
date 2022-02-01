@@ -1,0 +1,49 @@
+
+SOFTWARE FUNCTIONLIDADES
+
+- FRONT END
+-----------------------
+- FORMULARIO
+- FILTRO
+- SELECCION DE PERROS
+-----------------------
+
+- BACKEND
+-----------------------
+- GENERAR PEDIGREE CON DATA DE FORMULARIO (CARA Y SELLO)
+- GENERAR PEDIGREE VACIO (CARA Y SELLO)
+- GENEAR AFIJO (CARA Y SELLO)
+- GENERAR TARJETA DE IDENTIFICACION (CARA Y SELLO)
+- EN CASO NO SE HAYA GENERADO, SOLICITAR LA GENERACION CON EL ID:
+    SE CARGA LA DATA AL BUSCAR Y SE PUEDE ACTUALIZAR PARA GENERAR EL ARCHIVO.
+- GUARDAR LA INFO EN UNA DB
+- EXPORTAR ESTA INFO PARA FACILITAR BACKUP
+
+-----------------------
+- META DATA (FORMATO DE DOCUMENTO)
+- PEDIGREE:
+    - FONT: ARIAL
+    - TEXT SIZE (FRONT): 16, 8 , 7.845, 7.975 pt
+    - TEXT SIZE (BACK): 9.304
+- AFIJO:
+    - FONT: ARIAL
+    - TEXT SIZE (FRONT): 21.557 pt, 6.354, 7.286
+
+---------------------------------------------------------
+FUNCIONAMIENTO
+---------------------------------------------------------
+Formulario:
+Se llena el formulario, si se incluye info extra, tendra que abrirse una nueva ventana
+caso contrario el script lee los Ancestros usando el Afijo.
+
+Se guarda en bd la info y se genera los archivos en una carpeta externa , dentro del disco C
+
+Se facilita la ubicacion de esa carpeta
+
+Definir 3 Pestañas (Crear registro, editar registro, buscar clientes (posib exportarlos a excel o algo.))
+
+----------------------------------------------------------------------------------------------------------
+Agregar al crear un pedigree, que se guarde quien lo creo
+
+
+
